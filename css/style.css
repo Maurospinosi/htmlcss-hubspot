@@ -4,10 +4,6 @@
   margin: 0;
   text-align: center;
 }
-header{
-  font-size: 15px;
-  line-height: 50px;
-}
 .header-left::after{
   clear: both;
   content: "";
@@ -16,7 +12,9 @@ header{
 .header-left{
   background-color: #f0f8ff;
   float: left;
-  width: 50%
+  width: 50%;
+  font-size: 15px;
+  line-height: 50px;
 }
 .header-left a{
   border-left: 1px solid black;
@@ -39,6 +37,8 @@ header{
   background-color: #f0f8ff;
   float: left;
   width: 50%;
+  font-size: 15px;
+  line-height: 50px;
 }
 .header-right .fas{
   font-size: 20px;
