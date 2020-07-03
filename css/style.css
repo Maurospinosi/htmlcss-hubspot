@@ -14,7 +14,7 @@ header{
   display: table;
 }
 .header-left{
-  background-color: lightgrey;
+  background-color: #f0f8ff;
   float: left;
   width: 50%
 }
@@ -25,7 +25,7 @@ header{
   color: black;
 }
 #language{
-  background-color:lightgrey;
+  background-color:#f0f8ff;
   border-width: 0px;
   border-style: none;
   border-color:transparent;
@@ -36,7 +36,7 @@ header{
   display: table;
 }
 .header-right{
-  background-color: lightgrey;
+  background-color: #f0f8ff;
   float: left;
   width: 50%;
 }
@@ -56,4 +56,38 @@ header{
 .get{
   color: white;
   background-color: #ff7b5a;
+}
+.nav-top::after{
+  clear: both;
+  content: "";
+  display: table;
+}
+.nav-left{
+  width: 50%;
+  float: left;
+  line-height: 80px;
+  position: relative;
+  right: 50px;
+}
+.nav-right{
+  float: left;
+  width: 50%;
+  position: relative;
+  right: 100px;
+  line-height: 80px;
+}
+.nav-right li{
+  display: inline-block;
+  margin-left: 10px;
+}
+.nav-right select{
+  border-width: 0px;
+  border-style: none;
+  border-color:transparent;
+  font-size: 15px;
+}
+.nav-right a{
+  font-size: 18px;
+  text-decoration: none;
+  color: black;
 }
