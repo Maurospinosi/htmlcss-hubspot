@@ -67,7 +67,7 @@
   float: left;
   line-height: 80px;
   position: relative;
-  right: 50px;
+  right: 45px;
 }
 .nav-right{
   float: left;
@@ -90,4 +90,11 @@
   font-size: 18px;
   text-decoration: none;
   color: black;
+}
+.bottom-header{
+  height: 90vh;
+  background-image: url(../img_1/jumbotron.png);
+  background-size: cover;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
 }
