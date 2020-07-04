@@ -15,6 +15,7 @@
   width: 50%;
   font-size: 15px;
   line-height: 50px;
+  font-family: 'Roboto', sans-serif;
 }
 .header-left a{
   border-left: 1px solid black;
@@ -39,23 +40,27 @@
   width: 50%;
   font-size: 15px;
   line-height: 50px;
+  font-family: 'Roboto', sans-serif;
 }
 .header-right .fas{
   font-size: 20px;
   color: #99deda;
 }
-.header-right .login, .get{
-  background-color: white;
+.buttom:hover{
+  background-color: rgba(255, 123, 90, 0.3)
+}
+.buttom{
   border: solid #ff7b5a 1px;
   padding:8px;
   text-decoration: none;
   border-radius: 10%;
-  color: #ff7b5a;
   margin-left: 10px;
-}
-.get{
-  color: white;
   background-color: #ff7b5a;
+  color: white;
+}
+.login{
+  color: #ff7b5a;
+  background-color: white;
 }
 .nav-top::after{
   clear: both;
@@ -63,6 +68,7 @@
   display: table;
 }
 .nav-left{
+  font-family: 'Roboto', sans-serif;
   width: 50%;
   float: left;
   line-height: 80px;
@@ -70,6 +76,7 @@
   right: 45px;
 }
 .nav-right{
+  font-family: 'Roboto', sans-serif;
   float: left;
   width: 50%;
   position: relative;
@@ -92,9 +99,33 @@
   color: black;
 }
 .bottom-header{
-  height: 90vh;
+  font-family: 'Roboto', sans-serif;
+  height: 100vh;
   background-image: url(../img_1/jumbotron.png);
   background-size: cover;
-  background-size: 100% 100%;
   background-repeat: no-repeat;
+  background-size: contain;
+}
+.bottom-header h1{
+  position: relative;
+  top:80px;
+  left:530px;
+  font-size: 70px;
+  text-align: left;
+}
+.bottom-header p{
+  position: relative;
+  top:80px;
+  left:530px;
+  text-align: left;
+  width: 30%;
+  margin-top: 30px;
+  margin-bottom: 80px;
+}
+.bottom-header a{
+  position: relative;
+  right: 650px;
+  top:60px;
+  padding: 20px;
+  margin-bottom: 30px;
 }
