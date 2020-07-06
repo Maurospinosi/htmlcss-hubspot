@@ -162,8 +162,8 @@
   border:solid lightgrey;
   background:white;
   padding:100px 100px;
-  margin-left: 1.7%;
-  margin-right: 1.7%;
+  margin-left: 1.5%;
+  margin-right: 1.5%;
 }
 .right-paragraph{
   text-align: center;
@@ -231,6 +231,9 @@ table i{
   margin: auto;
   font-family: 'Roboto', sans-serif;
 }
+.main-bottom_bottom{
+  margin-top: 100px;
+}
 .main-bottom_bottom::after{
   clear: both;
   content: "";
@@ -243,8 +246,4 @@ table i{
   float: left;
   position: relative;
   left:10%;
-}
-.main-bottom_bottom_left{
-  width: 50%;
-  float: left;
 }
