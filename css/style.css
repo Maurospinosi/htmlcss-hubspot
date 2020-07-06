@@ -214,17 +214,37 @@ table i{
   position:relative;
   bottom:10px;
 }
-.main-bottom::after{
+.main-bottom_top::after{
   clear: both;
   content: "";
   display: table;
 }
-.main-bottom{
+.main-bottom_top_left{
   width: 50%;
-  margin-top:30px;
-  margin: auto;
   float: left;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
 }
-.main-bottom-right{
+.main-bottom_top_right{
   width: 50%;
+  float: left;
+  margin: auto;
+  font-family: 'Roboto', sans-serif;
+}
+.main-bottom_bottom::after{
+  clear: both;
+  content: "";
+  display: table;
+}
+.main-bottom_bottom_left{
+  text-align: left;
+  font-family: 'Roboto', sans-serif;
+  width: 50%;
+  float: left;
+  position: relative;
+  left:10%;
+}
+.main-bottom_bottom_left{
+  width: 50%;
+  float: left;
 }
