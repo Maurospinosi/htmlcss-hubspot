@@ -269,17 +269,17 @@ header hr{
   margin-top:30px;
   margin-bottom:40px;
 }
-table{
+#table-one{
   margin:auto;
 }
-table strong{
+#table-one strong{
   font-size:40px;
 }
-table span{
+#table-one span{
   position: relative;
   top:20px;
 }
-td{
+#table-one td{
   width: 250px;
   height: 250px;
 }
@@ -290,12 +290,12 @@ td{
 #table_layout-two{
  border-right:1px white solid;
 }
-table, div{
+#table-one, div{
   font-size: 20px;
   position: relative;
   bottom: 20px;
 }
-table i{
+#table-one i{
   font-size:30px;
   position:relative;
   bottom:10px;
@@ -376,6 +376,12 @@ footer ul{
   display: inline-block;
   list-style: none;
   margin-left: 50px;
+  margin-top: 30px;
+}
+.footer-list::after{
+  clear: both;
+  content: "";
+  display: table;
 }
 .footer-list{
   text-align:center;
@@ -391,4 +397,11 @@ footer ul{
 }
 .footer-list strong{
   line-height:70px;
+}
+.last_column{
+  position:relative;
+}
+.last_column a{
+  position:absolute;
+  left:0;
 }
