@@ -3,20 +3,23 @@
   padding: 0;
   margin: 0;
 }
+.container{
+  width:70%;
+  margin:auto;
+}
 .header-top::after{
   clear: both;
   content: "";
   display: table;
 }
 .header-top{
-  line-height: 50px;
-  text-align: center;
+  line-height: 90px;
   background-color:#f0f8ff
 }
 .header-top_left{
   width: 50%;
   float: left;
-  font-size: 15px;
+  font-size: 18px;
   font-family: 'Roboto', sans-serif;
 }
 .header-top_left a{
@@ -30,12 +33,15 @@
   border-width: 0px;
   border-style: none;
   border-color:transparent;
+  font-size: 18px;
 }
 .header-top_right{
   width: 50%;
   float: left;
   font-size: 15px;
   font-family: 'Roboto', sans-serif;
+  position: relative;
+  left: 13%;
 }
 .header-top_right .fas{
   font-size: 20px;
@@ -44,7 +50,7 @@
 header hr{
   height:2.5px ;
   color:black ;
-  background-color:black
+  background-color:black;
 }
 .buttom:hover{
   background-color: rgba(255, 123, 90, 0.3)
@@ -69,22 +75,19 @@ header hr{
   display: table;
 }
 .nav-top{
-  line-height: 50px;
-  text-align: center;
+  line-height: 70px;
 }
 .nav-left{
   font-family: 'Roboto', sans-serif;
   width: 50%;
   float: left;
-  position: relative;
-  right:50px;
 }
 .nav-right{
   font-family: 'Roboto', sans-serif;
   float: left;
   width: 50%;
   position: relative;
-  right: 100px;
+  left: 3%;
 }
 .nav-right li{
   display: inline-block;
@@ -110,22 +113,24 @@ header hr{
 .header-text{
   width: 60%;
   text-align: left;
-  margin: auto;
-  position: relative;
-  top:50px;
-}
-#header-paragraph-top{
-  margin-top:50px;
-}
-#header-paragraph-bottom{
-  margin-top:50px;
-  font-size:15px;
+  position:relative;
+  top:30px;
 }
 .header-text h1{
   font-size:70px;
 }
+.header-text p{
+  position:relative;
+  top:50px;
+}
 .header-text a{
   padding:20px;
+  position:relative;
+  top:100px;
+}
+#header-pragraph-bottom{
+  position:relative;
+  top:150px;
 }
 .main-top{
   background-color: #D7D7D7;
@@ -137,6 +142,7 @@ header hr{
   margin-top: 50px;
 }
 .main-top_text{
+  width: 70%;
   text-align: center;
 }
 .main-top_text p{
@@ -147,7 +153,6 @@ header hr{
   border: lightgrey 1px solid;
   background-color: white;
   width: 70%;
-  margin: auto;
   padding: 50px 100px;
 }
 .main-top img{
@@ -155,9 +160,7 @@ header hr{
   height: 200px;
 }
 .middle-paragraph_left a{
-  padding: 30px 30px;
-  position: relative;
-  right:40%;
+  padding: 30px 50px;
 }
 .middle-paragraph_left img{
   margin-bottom: 50px;
@@ -200,8 +203,8 @@ header hr{
 }
 .three_middle_paragraph{
   width: 70%;
-  margin: auto;
   margin-top: 50px;
+  padding-bottom: 50px;
 }
 .left_paragraph{
   float: left;
@@ -256,21 +259,26 @@ header hr{
   line-height:30px;
 }
 .main-center{
-  text-align: center;
   font-family: 'Roboto', sans-serif;
-  background-image: linear-gradient(45deg,#00a4bd,#00bda5);
   color:white;
-  padding-top: 30px;
-  padding-bottom: 30px;
-  padding-right: 20%;
-  padding-left: 20%;
+}
+.main-center h2{
+  text-align: center;
+  width: 70%;
+  padding-top : 50px;
 }
 .main-center p{
+  text-align: center;
+  width: 70%;
   margin-top:30px;
   margin-bottom:40px;
+  line-height: 30px;
 }
 #table-one{
-  margin:auto;
+  width: 70%;
+  text-align: center;
+  padding-bottom: 150px;
+  padding-top: 50px;
 }
 #table-one strong{
   font-size:40px;
@@ -290,7 +298,7 @@ header hr{
 #table_layout-two{
  border-right:1px white solid;
 }
-#table-one, div{
+#table-one div{
   font-size: 20px;
   position: relative;
   bottom: 20px;
@@ -301,8 +309,9 @@ header hr{
   bottom:10px;
 }
 .main-bottom{
-  margin-top:30px;
-  margin-bottom:30px;
+  width: 70%;
+  margin-top:40px;
+  margin-bottom:40px;
 }
 .main-bottom h2{
   font-size:80px
@@ -324,7 +333,6 @@ header hr{
 .main-bottom_top_right{
   width: 50%;
   float: left;
-  margin: auto;
   font-family: 'Roboto', sans-serif;
 }
 .main-bottom_bottom{
@@ -340,8 +348,6 @@ header hr{
   font-family: 'Roboto', sans-serif;
   width: 50%;
   float: left;
-  position: relative;
-  left:10%;
 }
 .main-bottom_bottom_left h1{
   font-size:70px;
@@ -361,8 +367,7 @@ header hr{
   width: 300px;
   height: 300px;
   position: relative;
-  left:20%;
-  top:10%;
+  left: 35%;
 }
 footer{
   color: white;
@@ -378,13 +383,9 @@ footer ul{
   margin-left: 50px;
   margin-top: 30px;
 }
-.footer-list::after{
-  clear: both;
-  content: "";
-  display: table;
-}
 .footer-list{
-  text-align:center;
+  width: 70%;
+  margin: auto;
 }
 .footer-buttom{
   color: black;
@@ -401,7 +402,16 @@ footer ul{
 .last_column{
   position:relative;
 }
-.last_column a{
-  position:absolute;
-  left:0;
+.last_column i{
+  margin-right: 10px;
+}
+.languages span{
+  margin-left: 20px;
+}
+.languages{
+  text-align: center;
+  margin-top: 100px;
+}
+.languages hr{
+ width:
 }
